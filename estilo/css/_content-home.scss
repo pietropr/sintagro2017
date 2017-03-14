@@ -1,5 +1,8 @@
 .home {
+	.primary {
+	}
 	#banner {
+		padding-top: 40px;
 		background: #eceaea;
 		.grid {
 			max-width: 1170px;
@@ -23,6 +26,9 @@
 		}
 	}
 	#utilidades {
+		margin-top: -20px;
+		background: $verde-mais-claro;
+		
 		.grid {
 			max-width: 1170px !important;
 			width: 100%;
@@ -40,6 +46,12 @@
 							max-width: 140px;
 						}
 					}
+				}
+				
+				&:after {
+					content: '';
+					display: block;
+					clear: both !important;
 				}
 			}
 		}

@@ -70,12 +70,12 @@
     background: rgba(255,255,255,0.97);
     height: 70px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.05);
-    top: 0;
+    top: 40;
     width: 100%;
     max-width: 1920px !important;
     @extend %transition;
     z-index: 10100 !important;
-    position: relative;
+    position: absolute;
     background: white;
     margin-left: auto;
     margin-right: auto;
@@ -138,26 +138,6 @@
                             display: block;
                         }
                         
-                        &.current-menu-item,
-                        &.current-page-item {
-                            a {
-                               
-                                
-                                &:before {
-                                    margin-right: 3px;
-                                    content: '{ ';
-                                    display: inline-block;
-                                    color: $verde-claro;
-                                }
-                                
-                                &:after {
-                                    margin-left: 3px;
-                                    content: ' }';
-                                    display: inline-block;
-                                    color: $verde-claro;
-                                }
-                            }
-                        }
                         a {
                            
                             
@@ -176,8 +156,7 @@
                         
                         ul {
                             list-style: none !important;
-                            li {
-                            }
+                          
                         }
                         
                     }
@@ -204,17 +183,7 @@
                     
                     }
                 }
-            
-                @media screen and (max-width: 1025px) and (min-width: 800px) {
-                    .nav-menu {
-                        padding-left: 35px;
-                        li {
-                            a {
-                                font-size: 0.85em !important;
-                            }
-                        }
-                    }
-                }
+                
             }
         
             &.toggled {
@@ -286,41 +255,11 @@
     &.small {
         position: fixed;
         z-index: 99999;
-        height: 60px;
+        top: 0;
         
-        .grid {
-            .site-branding {
-               
-                
-                .site-logo {
-                    @extend %transition;
-                    max-width: 120px;
-                    margin-top: -8px;
-                }
-                
-                @media screen and (max-width: 800px) {
-                    margin-top: 8px;
-                }
-            }
-            
-            nav {
-             
-                ul {
-                    
-                    @extend %transition;
-                    padding-top: 19px !important;
-                }
-                
-                @media screen and (max-width: 800px) {
-                    margin-top: -10px;
-                   
-                }
-            }
-        }
+        font-size: inherit !important;
         
-        .menu-toggle {
-            top: 15px;
-        }
+        
     }
     
     
