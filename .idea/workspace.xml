@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2cb649-874a-4d97-bb1a-e628d99bbd60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estilo/css/_content-home.scss" afterPath="$PROJECT_DIR$/estilo/css/_content-home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estilo/css/_header.scss" afterPath="$PROJECT_DIR$/estilo/css/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estilo/css/_vars.scss" afterPath="$PROJECT_DIR$/estilo/css/_vars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estilo/css/styles.css" afterPath="$PROJECT_DIR$/estilo/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estilo/css/styles.css.map" afterPath="$PROJECT_DIR$/estilo/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-    </list>
+    <list default="true" id="be2cb649-874a-4d97-bb1a-e628d99bbd60" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489436152271</updated>
-      <workItem from="1489436153755" duration="13485000" />
+      <workItem from="1489436153755" duration="13808000" />
     </task>
     <task id="LOCAL-00001" summary="Upload navigation.js">
       <created>1489453456653</created>
@@ -328,17 +319,24 @@
       <option name="project" value="LOCAL" />
       <updated>1489454374981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Função do menu small na rolagem/ SCSS utilidades">
+      <created>1489455962890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489455962890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13485000" />
+    <option name="totallyTimeSpent" value="13808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -367,7 +365,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload navigation.js" />
     <MESSAGE value="SCSS da Home - Seção Utilidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="SCSS da Home - Seção Utilidades" />
+    <MESSAGE value="Função do menu small na rolagem/ SCSS utilidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Função do menu small na rolagem/ SCSS utilidades" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
