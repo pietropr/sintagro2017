@@ -1,0 +1,336 @@
+body {
+    @include font-size(0.9);
+    color: $preto;
+    @extend %font-normal;
+    margin: 0 !important;
+}
+
+.nome-tax {
+    display: none !important;
+}
+
+h2 {
+    text-transform: uppercase !important;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    margin: 30px auto;
+    text-align: center;
+    
+    &:after {
+        content: '';
+        background: white;
+        height: 2px;
+        display: block;
+        max-width: 170px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+a, a:hover, a:visited, a:focus {
+    color: black;
+}
+
+a, a:hover, a:visited, a:focus,
+div, p, li, span,
+h1, h2, h3, h4, h5, h6
+{
+    text-decoration: none;
+    font-weight: 300;
+    text-decoration: none !important;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+h1 { @include font-size(1.8); }
+h2 { @include font-size(1.6); }
+h3 { @include font-size(1.4); }
+h4 { @include font-size(1.2); }
+h5 { @include font-size(1.1); }
+h6 { @include font-size(1.05); }
+
+h1,h2,h3,h4 {
+    line-height: 1.2em;
+}
+
+a, a:hover, a:visited, a:focus {
+    outline: none;
+    color: black;
+    cursor: pointer !important;
+}
+
+p,a {
+    //line-height: 2em;
+}
+
+h1, h2, h3, h4 {
+    @extend %font-normal;
+    text-transform: capitalize;
+    color: $preto;
+}
+
+.page-content {
+    margin: 0;
+}
+
+.vc_row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.wpb_wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.single, .archive {
+    #secondary {
+        margin-top: 50px !important;
+    
+        .grid {
+            max-width: 374px;
+            width: 100%;
+        }
+    }
+}
+
+#secondary {
+    background: #F2F2F2;
+    padding: 30px;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    
+    h2 {
+        text-align: right;
+        padding: 0 30px;
+        font-size: 1.4em !important;
+        border: 0;
+        
+        &:before {
+            content: '';
+            display: inline-block;
+            background: url(../images/icon.png);
+            width: 9px;
+            height: 9px;
+            background-size: contain !important;
+        }
+        
+        &:after {
+            display: none !important;
+        }
+    }
+    
+    #search-2 {
+        input[type=submit] {
+            background: url(../images/Busca.png);
+            background-size: contain !important;
+            height: 30px;
+            width: 30px;
+            margin-top: 4px;
+            border: none;
+            background-repeat: no-repeat;
+            text-indent: -9999px;
+            box-shadow: none;
+            text-shadow: none;
+            margin-left: -35px;
+            position: absolute;
+        }
+        
+        input[type=search] {
+            width: 90%;
+            height: 30px;
+            border-radius: 0;
+            border: 1px solid $azul;
+        }
+    }
+    
+    #categories-3 {
+        ul {
+            list-style: none !important;
+            
+            li {
+                margin-bottom: 15px;
+                display: inline-block;
+                a {
+                    color: $azul;
+                    border: 1px solid;
+                    padding: 3px 12px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    
+    
+    #rpwwt-recent-posts-widget-with-thumbnails-2 {
+        
+       
+            ul {
+                li {
+                    max-width: 280px;
+                    border-bottom: 1px solid #ccc;
+                    display: block !important;
+                    a {
+                        img {
+                            display: block;
+                            float: right !important;
+                            
+                        }
+                    }
+                    
+                    .rpwwt-post-date {
+                        width: 60%;
+                        display: none !important;
+                        border-bottom: 1px solid #ccc;
+                        margin-top: -45px;
+                        margin-left: 0px;
+                        
+                        p {
+                            font-size: 13px;
+                            font-weight: 300;
+                            margin: 0;
+                            display: inline-block;
+                            
+                            &:nth-child(1) {
+                                color: $azul;
+                            }
+                            
+                            &:nth-child(2) {
+                                padding: 0 3px !important;
+                                text-transform: uppercase;
+                                color: $azul;;
+                            }
+                            
+                            
+                        }
+                    }
+                    
+                    .rpwwt-post-title {
+                        color: $azul !important;
+                        padding-bottom: 3px;
+                        font-size: 16px !important;
+                        p {
+                            font-size: 16px;
+                            max-width: 320px;
+                            margin-top: 0px;
+                            text-align: left;
+                            margin-right: auto;
+                            width: 60%;
+                            border-bottom: 1px solid #ccc;
+                            
+                            &:before {
+                                display: inline-block;
+                                content: '';
+                                height: 7px;
+                                background: $azul;
+                                margin-right: 5px;
+                                width: 7px;
+                                
+                            }
+                        }
+                    }
+                    
+                    .rpwwt-post-excerpt {
+                        word-wrap: break-word;
+                        max-width: 60%;
+                        margin-top: 8px;
+    
+                    }
+                }
+            }
+        
+    }
+    
+    @media screen and (max-width: 800px) {
+        padding: 0 15px;
+        float: none;
+        overflow: visible;
+        width: 100% !important;
+        ul {
+            
+            li {
+                
+                width: 49% !important;
+                display: inline-block;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.author, .single, .page-template-blog {
+    .content-area {
+        float: left;
+        margin: 0 -32% 0 0;
+        width: 100%;
+        
+        @media screen and (max-width: 800px) {
+            float: none;
+            margin: 0;
+            width: 100%;
+            padding: 0 15px;
+        }
+    }
+    .site-main {
+        margin: 0 35% 0 0;
+        @media screen and (max-width: 800px) {
+            margin: 0;
+        }
+    }
+    .widget-area {
+        float: right;
+        overflow: hidden;
+        width: 32%;
+        
+    }
+    .site-footer {
+        clear: both;
+        width: 100%;
+    }
+}
+
+.error404 {
+    #content {
+        margin-top: 100px;
+        
+        h1 {
+            font-size: 44px;
+        }
+        p {
+            font-size: 22px;
+        }
+    }
+    
+    #primary {
+        margin: auto;
+        max-width: 1170px;
+        margin-top: 100px;
+    }
+    
+    .widget {
+        display: none;
+    }
+    
+    section.error-404 {
+        min-height: 350px !IMPORTANT;
+    }
+    
+    #colophon {
+        display: none !important;
+    }
+}
+
+.adsbygoogle {
+   
+    display: none !important;
+
+}
+
+

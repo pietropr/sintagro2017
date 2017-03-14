@@ -1,0 +1,152 @@
+.entry-footer {
+    display: none;
+}
+
+#colophon {
+    margin-top: 120px;
+    color: $branco;
+    clear: both;
+    background-color: #1a1a1a;
+    width: 100%;
+    max-width: 1920px;
+    margin-right: auto !important;
+    margin-left: auto;
+    
+    &:before {
+        content:'';
+        display: block;
+        background: url(../images/footer-topo.png);
+        height: 137px;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        max-width: 1920px;
+        margin-top: -137px;
+        background-position: 50% 50%;
+    }
+    
+    p {
+        font-family: 'Lato';
+        font-weight: 300;
+    }
+    
+    @media screen and (max-width: 800px) {
+        height: auto !important;
+    }
+    
+    .grid {
+        h3 {
+            color: white !important;
+            font-size: 30px;
+            margin-bottom: -10px;
+        }
+        
+        max-width: 1170px;
+        width: 100%;
+        margin: auto;
+        
+        aside {
+            float: left;
+        }
+        
+        #text-6 {
+            width: 30%;
+         
+            .wpcf7 {
+                input[type=email] {
+                    width: 100%;
+                }
+                
+                input[type=submit] {
+                    border: 0 !important;
+                    border-radius: 0 !important;
+                    box-shadow: none !important;
+                    text-shadow: none !important;
+                    background: #366eb7;
+                    text-indent: -9999px;
+                    height: 32px;
+                    width: 50px;
+                    background-position: center !important;
+                    float: right;
+                    background-size: contain !important;
+                    margin-top: -32px;
+                    z-index: 10 !important;
+                    position: relative;
+                    background: #366eb7 url(../images/right.png);
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    
+        #text-7 {
+            text-align: center;
+            h2 {
+                color: white !important;
+                font-size: 30px;
+                margin-bottom: -10px;
+                margin-top: 0px;
+                
+                &:after {
+                    display: none !important;
+                }
+            }
+            width: 40%;
+         
+            a {
+                color: white !important;
+                font-size: 40px;
+                margin: 0 5px;
+            }
+            
+        }
+        #text-8 {
+            width: 25%;
+        
+            .contato {
+                float: right;
+                text-align: right;
+            }
+        }
+    }
+    .site-info {
+        background: #366eb7;
+        clear: both !important;
+        
+        aside {
+            text-align: center;
+            padding: 15px 0!important;
+            margin: 0;
+            
+           a.voltar {
+               display: block;
+               text-align: center;
+               margin-top: -55px;
+           
+           }
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        .grid {
+            margin-bottom: 50px;
+            padding: 0 30px;
+            
+            aside {
+                width: 100% !important;
+                float: none;
+            }
+            
+            #text-8 {
+                .contato {
+                    float: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+}
+
+.page-sobre #colophon {
+    margin-top: 30px !important;
+}

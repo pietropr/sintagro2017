@@ -1,0 +1,68 @@
+.page-nosso-trabalho #content {
+    .hentry {
+        .entry-header {
+            display: none;
+        }
+    }
+    
+    .conteudo {
+    
+        margin-top: 40px;
+        
+        .grid-left, .grid-right {
+            width: 42%;
+            margin: 0 44px;
+            float: left !important;
+    
+            a {
+                clear: both !important;
+                padding: 5px 15px;
+                font-size: 10px;
+                color:  #383324;
+                border: 1px solid;
+                text-transform: uppercase;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            
+            @media screen and (max-width: 800px) {
+                width: 100%;
+                float: none;
+                margin: 0;
+            }
+        }
+        
+        .grid-left {
+            
+            &:after {
+                
+                @media screen and (min-width: 801px) {
+                    content: '';
+                    display: inline-block;
+                    height: 180px;
+                    width: 1px;
+                    background: black;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 80px;
+                }
+            }
+        }
+        
+        .down {
+            padding: 40px;
+        }
+        
+        h2 {
+            font-size: 20px;
+        }
+        
+        @media screen and (max-width: 800px) {
+            width: 90%;
+            margin: auto;
+        }
+        
+    }
+    
+    
+}

@@ -1,0 +1,98 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+//@include center-block()
+@mixin center-block() {
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+  width: $width;
+  max-width: $max-width;
+  left: 0;
+}
+
+@mixin after() {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+// Clearfix
+//@include clearfix()
+@mixin clearfix() {
+  clear: both;
+	content: "";
+	display: table;
+}
+
+// Clear after (not all clearfix need this also)
+//@include clearfix-after()
+@mixin clearfix-after() {
+	clear: both;
+}
+
+//@include opacity(0.8);
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+//@extend %transition
+%transition
+{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari and Chrome */
+    -o-transition: all 0.5s; /* Opera */
+}
+
+//@extend %vertical-align
+%vertical-align {
+
+    /* older webkit */
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+
+    /* older firefox */
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+
+    /* IE10*/
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+
+    /* newer webkit */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-box-pack: center;
+
+    /* Standard Form - IE 11+, FF 22+, Chrome 29+, Opera 17+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//@include grayscale(0-0.6-1);
+@mixin grayscale($gray) { 
+  filter: grayscale($gray) !important;
+  -webkit-filter: grayscale($gray) !important;
+  -moz-filter: grayscale($gray) !important;
+  -ms-filter: grayscale($gray) !important;
+  transition-property: filter;
+  transition-duration: 0.5s;
+}
+
+//@include vertical(10)
+@mixin vertical($vertical) {
+    -webkit-transform: skew($vertical+deg);
+    -ms-transform: skew($vertical+deg);
+    transform: skew($vertical+deg);
+}

@@ -1,0 +1,68 @@
+.wpcf7 {
+    form:after {
+        @include clearfix();
+    }
+    
+    input,
+    select,
+    textarea
+    {
+        width: 100%;
+        min-height: 35px;
+        border-radius: 2px;
+        border: 1px solid $preto-25;
+        background: $branco;
+        color: $preto;
+        padding: 10px 15px;
+        @include font-size(0.85);
+        &:hover,
+        &:focus
+        {
+            background: $preto-5;
+        }
+        @extend %transition;
+    }
+
+    select {
+        padding: 4px;
+    }
+
+    input[type="submit"]{
+        padding: 10px 40px;
+        font-weight: 300;
+        width: auto;
+        border-radius: 0;
+        border: 0;
+        background: $preto;
+        color: $branco;
+        @include font-size(0.85);
+        box-shadow: none;
+        text-shadow: 0;
+        -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+                clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+        &:hover {
+            color: $branco;
+            background: $preto-50;
+            box-shadow: none;
+            text-shadow: none;
+        }
+    }
+
+    p:last-of-type {
+        text-align: right;
+    }
+
+    div.wpcf7-mail-sent-ok {
+        clear: both;
+        border: 0;
+        background: $preto;
+        color: $branco;
+    }
+
+    div.wpcf7-spam-blocked {
+        clear: both;
+        border: 0;
+        background: red;
+        color: #fff;
+    }
+}

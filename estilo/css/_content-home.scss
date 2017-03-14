@@ -1,0 +1,25 @@
+.home {
+	#banner {
+		background: #eceaea;
+		.grid {
+			max-width: 1170px;
+			margin: auto;
+			width: 100%;
+			padding-top: 60px !important;
+			
+			.imagem {
+				max-width: 550px;
+				width: 100%;
+				margin: auto !important;
+				
+			}
+			p {
+				max-width: 550px !important;
+				margin: auto;
+				margin-top: 30px;
+				font-size: 17px;
+				padding-bottom: 40px;
+			}
+		}
+	}
+}
