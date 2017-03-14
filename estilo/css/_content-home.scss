@@ -26,6 +26,7 @@
 		}
 	}
 	#utilidades {
+		padding-bottom: 20px;
 		margin-top: -20px;
 		background: $verde-mais-claro;
 		
@@ -34,16 +35,49 @@
 			width: 100%;
 			margin: auto;
 			
+			.title {
+				text-align: center;
+				margin-bottom: 40px;
+				h2 {
+					margin: auto;
+					font-size: 35px;
+				}
+				
+				
+				h5 {
+					font-size: 20px;
+					color: white !important;
+					
+				}
+			}
+			 
 			.downloads {
 				max-width: 860px;
 				width: 100%;
 				margin: auto;
-				.col-sm-4 {
+				.col-sm-3 {
 					text-align: center;
 					
 					a {
 						img {
+							@extend %transition;
 							max-width: 140px;
+							-webkit-filter: grayscale(100%);
+							-moz-filter: grayscale(100%);
+							-ms-filter: grayscale(100%);
+							-o-filter: grayscale(100%);
+							filter: grayscale(100%);
+						}
+						
+						&:hover {
+							img {
+								@extend %transition;
+								-webkit-filter: grayscale(0%);
+								-moz-filter: grayscale(0%);
+								-ms-filter: grayscale(0%);
+								-o-filter: grayscale(0%);
+								filter: grayscale(0%);
+							}
 						}
 					}
 				}
@@ -56,4 +90,132 @@
 			}
 		}
 	}
+	
+	//Definicao do container de participantes
+	#participantes {
+		
+		#anchor {
+			height: 2px;
+		}
+		
+		background: #edebeb;
+		font-family: 'Poppins Regular';
+		.title {
+			text-align: center;
+			h2 {
+				margin: auto;
+				color: $verde-claro !important;
+				font-size: 35px;
+			}
+			
+			h5 {
+				font-size: 20px;
+			}
+		}
+		.conteudo {
+			margin: 20px auto;
+			
+			.menu {
+				margin-top: 80px;
+				text-align: center;
+				margin-bottom: 30px;
+				
+				a {
+					color: $verde-claro;
+					@extend %transition;
+					font-weight: 700;
+					font-size: 15px;
+					text-transform: uppercase !important;
+					border-right: 1px solid;
+					padding: 0 10px;
+					
+					
+					&:hover {
+						@extend %transition;
+						text-decoration: none !important;
+						color: white;
+						background: $verde-claro;
+						
+					}
+					
+					&.active {
+						@extend %transition;
+						text-decoration: none !important;
+						color: white;
+						background: $verde-claro;
+					}
+				}
+			}
+		}
+		
+		#parceiros, #apoio, #realizacao, #patrocinio, #organizacao {
+			display: none;
+			min-height: 640px !important;
+			
+			.container-fluid {
+				.col-sm-3 {
+					margin-left: 70px;
+					height: 320px;
+					overflow: hidden !important;
+					.conteudo {
+						background: white !important;
+						line-height: 150px;
+						text-align: center !important;
+						
+					}
+					
+					h4 {
+						font-size: 20px !important;
+						font-weight: 700;
+						color: green;
+						text-align: center;
+						margin-top: -10px !important;
+					}
+					
+					img {
+						max-width: 180px;
+						width: 100%;
+						margin: auto !important;
+					}
+				}
+			}
+			
+			&.active {
+				display: block !important;
+			}
+		}
+	}
+	#apresentacao {
+		background-attachment: fixed !important;
+		background: url(../../images/quem-somos.png);
+		background-size: cover;
+		
+		.container {
+			padding: 100px 0;
+			.conteudo {
+				
+				max-width: 700px;
+				width: 100%;
+				margin: auto !important;
+				p {
+					font-weight: 700;
+					color: $verde-escuro;
+					font-size: 17px;
+					
+				}
+				
+			}
+			h2 {
+				margin: auto !important;
+				max-width: 300px !important;
+				color: #3e543a !important;
+				text-align: center !important;
+				margin-top: -80px !important;
+				margin-bottom: 50px !important;
+				
+			}
+		}
+		
+	}
+	
 }

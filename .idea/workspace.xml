@@ -52,8 +52,8 @@
       <file leaf-file-name="_content-home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estilo/css/_content-home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="188" column="48" lean-forward="false" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+            <state relative-caret-position="302">
+              <caret line="202" column="8" lean-forward="true" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
               <folding>
                 <element signature="e#32#409#0" expanded="false" />
                 <marker date="1489520611780" expanded="false" signature="423:1552" ph="{...}" />
@@ -332,7 +332,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489436152271</updated>
       <workItem from="1489436153755" duration="15371000" />
-      <workItem from="1489492252456" duration="12897000" />
+      <workItem from="1489492252456" duration="13079000" />
     </task>
     <task id="LOCAL-00001" summary="Upload navigation.js">
       <created>1489453456653</created>
@@ -362,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489455962890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Home - 14/03">
+      <created>1489520882098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489520882098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28268000" />
+    <option name="totallyTimeSpent" value="28450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -402,7 +409,9 @@
     <MESSAGE value="Upload navigation.js" />
     <MESSAGE value="SCSS da Home - Seção Utilidades" />
     <MESSAGE value="Função do menu small na rolagem/ SCSS utilidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Função do menu small na rolagem/ SCSS utilidades" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/pietropr/sintagro2017&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Home - 14/03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home - 14/03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -516,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/estilo/css/_content-home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="188" column="48" lean-forward="false" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+        <state relative-caret-position="302">
+          <caret line="202" column="8" lean-forward="true" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
           <folding>
             <element signature="e#32#409#0" expanded="false" />
             <marker date="1489520611780" expanded="false" signature="423:1552" ph="{...}" />

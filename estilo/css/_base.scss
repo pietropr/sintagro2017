@@ -11,21 +11,14 @@ body {
 
 h2 {
     text-transform: uppercase !important;
-    color: white;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     padding-top: 40px;
-    margin: 30px auto;
-    text-align: center;
-    
-    &:after {
-        content: '';
-        background: white;
-        height: 2px;
-        display: block;
-        max-width: 170px;
-        margin: auto;
-        margin-top: 20px;
-    }
+    color: white !important;
+    font-family: 'Poppins SBold' !important;
+    max-width: 450px;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 a, a:hover, a:visited, a:focus {

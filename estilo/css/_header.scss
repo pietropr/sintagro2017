@@ -67,7 +67,7 @@
 }
 
 #masthead {
-    background: rgba(255,255,255,0.97);
+    background: rgba(255,255,255,0.98) !important;
     height: 70px;
     box-shadow: 0 3px 3px rgba(0,0,0,0.05);
     top: 40;
@@ -76,7 +76,6 @@
     @extend %transition;
     z-index: 10100 !important;
     position: absolute;
-    background: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -242,13 +241,17 @@
         background-size: cover !important;
         width: 30px;
         height: 30px;
-        background: url(../images/button.png);
+        //background: url(../images/button.png);
         z-index: 9999;
         border: 0;
         box-shadow: none;
+        display: none !important;
         &:hover, &:focus {
             outline: none;
             box-shadow: none;
+        }
+        @media screen and (max-width: 800px) {
+            display: block !important;
         }
     }
     
