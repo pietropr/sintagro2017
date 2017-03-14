@@ -45,8 +45,7 @@ a, a:hover, a:visited, a:focus,
 div, p, li, span,
 h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
-  font-weight: 300;
-  text-decoration: none !important; }
+  font-weight: 300; }
 
 ul, ol {
   margin: 0;
@@ -104,113 +103,6 @@ h1, h2, h3, h4 {
   .single #secondary .grid, .archive #secondary .grid {
     max-width: 374px;
     width: 100%; }
-
-#secondary {
-  background: #F2F2F2;
-  padding: 30px;
-  border-left: 1px solid #CCCCCC;
-  border-bottom: 1px solid #CCCCCC; }
-  #secondary h2 {
-    text-align: right;
-    padding: 0 30px;
-    font-size: 1.4em !important;
-    border: 0; }
-    #secondary h2:before {
-      content: '';
-      display: inline-block;
-      background: url(../images/icon.png);
-      width: 9px;
-      height: 9px;
-      background-size: contain !important; }
-    #secondary h2:after {
-      display: none !important; }
-  #secondary #search-2 input[type=submit] {
-    background: url(../images/Busca.png);
-    background-size: contain !important;
-    height: 30px;
-    width: 30px;
-    margin-top: 4px;
-    border: none;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    box-shadow: none;
-    text-shadow: none;
-    margin-left: -35px;
-    position: absolute; }
-  #secondary #search-2 input[type=search] {
-    width: 90%;
-    height: 30px;
-    border-radius: 0;
-    border: 1px solid #366eb7; }
-  #secondary #categories-3 ul {
-    list-style: none !important; }
-    #secondary #categories-3 ul li {
-      margin-bottom: 15px;
-      display: inline-block; }
-      #secondary #categories-3 ul li a {
-        color: #366eb7;
-        border: 1px solid;
-        padding: 3px 12px;
-        font-weight: 300; }
-  #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li {
-    max-width: 280px;
-    border-bottom: 1px solid #ccc;
-    display: block !important; }
-    #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li a img {
-      display: block;
-      float: right !important; }
-    #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-date {
-      width: 60%;
-      display: none !important;
-      border-bottom: 1px solid #ccc;
-      margin-top: -45px;
-      margin-left: 0px; }
-      #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-date p {
-        font-size: 13px;
-        font-weight: 300;
-        margin: 0;
-        display: inline-block; }
-        #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-date p:nth-child(1) {
-          color: #366eb7; }
-        #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-date p:nth-child(2) {
-          padding: 0 3px !important;
-          text-transform: uppercase;
-          color: #366eb7; }
-    #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-title {
-      color: #366eb7 !important;
-      padding-bottom: 3px;
-      font-size: 16px !important; }
-      #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-title p {
-        font-size: 16px;
-        max-width: 320px;
-        margin-top: 0px;
-        text-align: left;
-        margin-right: auto;
-        width: 60%;
-        border-bottom: 1px solid #ccc; }
-        #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-title p:before {
-          display: inline-block;
-          content: '';
-          height: 7px;
-          background: #366eb7;
-          margin-right: 5px;
-          width: 7px; }
-    #secondary #rpwwt-recent-posts-widget-with-thumbnails-2 ul li .rpwwt-post-excerpt {
-      word-wrap: break-word;
-      max-width: 60%;
-      margin-top: 8px; }
-  @media screen and (max-width: 800px) {
-    #secondary {
-      padding: 0 15px;
-      float: none;
-      overflow: visible;
-      width: 100% !important; }
-      #secondary ul li {
-        width: 49% !important;
-        display: inline-block; } }
-  @media screen and (max-width: 800px) {
-    #secondary {
-      display: none; } }
 
 .author .content-area, .single .content-area, .page-template-blog .content-area {
   float: left;
@@ -609,5 +501,17 @@ h1, h2, h3, h4 {
       margin-top: 30px;
       font-size: 17px;
       padding-bottom: 40px; }
+.home #utilidades .grid {
+  max-width: 1170px !important;
+  width: 100%;
+  margin: auto; }
+  .home #utilidades .grid .downloads {
+    max-width: 860px;
+    width: 100%;
+    margin: auto; }
+    .home #utilidades .grid .downloads .col-sm-4 {
+      text-align: center; }
+      .home #utilidades .grid .downloads .col-sm-4 a img {
+        max-width: 140px; }
 
 /*# sourceMappingURL=styles.css.map */
