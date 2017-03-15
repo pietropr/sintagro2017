@@ -11,6 +11,11 @@ $(document).ready(function() {
         }
     }
 
+    $('#masthead .menu-toggle').on('click touchstart', function(e){
+        $('.menu-principal-container').toggleClass('toggled');
+        e.preventDefault();
+    });
+
     $(window).scroll(function() {
         menu_size();
     });

@@ -23,6 +23,17 @@
 				font-size: 17px;
 				padding-bottom: 40px;
 			}
+			
+			@media screen and (max-width: 800px) {
+				padding: 0 15px !important;
+				
+				.imagem {
+					img {
+						max-width: 300px;
+						width: 100%;
+					}
+				}
+			}
 		}
 	}
 	#utilidades {
@@ -88,6 +99,10 @@
 					clear: both !important;
 				}
 			}
+			
+			@media screen and (max-width: 800px) {
+				padding: 0 15px !important;
+			}
 		}
 	}
 	
@@ -144,6 +159,15 @@
 						color: white;
 						background: $verde-claro;
 					}
+					
+					@media screen and (max-width: 800px) {
+						display: inline-flex;
+						text-align: center !important;
+						margin-bottom: 10px !important;
+						border-right: 0px solid !important;
+						padding: 10px 10px;
+						
+					}
 				}
 			}
 		}
@@ -176,6 +200,10 @@
 						max-width: 180px;
 						width: 100%;
 						margin: auto !important;
+					}
+					
+					@media screen and (max-width: 800px) {
+						margin-left: 0 !important;
 					}
 				}
 			}
@@ -214,8 +242,59 @@
 				margin-bottom: 50px !important;
 				
 			}
+			
+			@media screen and (max-width: 800px) {
+				padding: 100px 20px !important;
+				
+			}
 		}
 		
+	}
+	#comissao {
+		background: #edebeb;
+		
+		.container {
+			padding: 50px 0px 70px 0px;
+			.title {
+				h2 {
+					margin: auto !important;
+					max-width: 600px !important;
+					width: 100%;
+					color: $verde-claro !important;
+					text-align: center !important;
+				}
+			}
+			
+			.conteudo {
+				h3 {
+					color: $verde-claro;
+					font-size: 28px;
+					text-align: center;
+				}
+				
+				h4 {
+					text-align: center;
+					color: $verde-claro;
+					font-size: 20px;
+					
+				}
+				
+				a {
+					background: #3e543a;
+					color: white;
+					padding: 10px 25px;
+					font-size: 18px;
+					border-radius: 5px;
+					text-align: center !important;
+					display: block;
+					max-width: 150px;
+					margin: auto;
+				}
+			}
+			
+			
+			
+		}
 	}
 	
 }
